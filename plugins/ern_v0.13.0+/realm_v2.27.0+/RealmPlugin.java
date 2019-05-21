@@ -8,7 +8,7 @@ import com.facebook.react.ReactInstanceManagerBuilder;
 import com.facebook.react.ReactPackage;
 import io.realm.react.RealmReactPackage;
 
-public class RCTExifPackagePlugin implements ReactPlugin {
+public class RealmPlugin implements ReactPlugin {
 
     public ReactPackage hook(@NonNull Application application,
                       @Nullable ReactPluginConfig config) {
