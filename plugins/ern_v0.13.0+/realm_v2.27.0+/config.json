@@ -1,0 +1,22 @@
+{
+    "android": {
+      "root": "react-native/android",
+      "dependencies": [
+        "org.nanohttpd:nanohttpd:2.2.0"
+      ]
+    },
+    "ios": {
+      "copy": [
+        { "source": "react-native/ios/**", "dest": "{{{projectName}}}/Libraries/RealmReact" }
+      ],
+      "pbxproj": {
+         "addProject": [
+          { "path": "RealmReact/RealmReact.xcodeproj", "group": "Libraries", "staticLibs": [ { "name": "libKCKeepAwake.a", "target": "KCKeepAwake" } ] }
+        ],
+        "addHeaderSearchPath": [
+          "\"$(SRCROOT)/{{{projectName}}}/Libraries/RealmReact/**\""
+        ]
+      }
+    }
+  }
+  
