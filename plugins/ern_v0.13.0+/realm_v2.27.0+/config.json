@@ -3,6 +3,9 @@
       "root": "android",
       "dependencies": [
         "org.nanohttpd:nanohttpd:2.2.0"
+      ],
+      "copy": [
+          { "source": "android/src/main/jniLibs/**", "dest": "lib/src/main/jniLibs" }
       ]
     },
     "ios": {
