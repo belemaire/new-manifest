@@ -1,6 +1,6 @@
 {
     "android": {
-      "root": "react-native/android",
+      "root": "android",
       "dependencies": [
         "org.nanohttpd:nanohttpd:2.2.0"
       ]
