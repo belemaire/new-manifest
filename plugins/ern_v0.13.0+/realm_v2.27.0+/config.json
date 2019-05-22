@@ -11,7 +11,7 @@
       ],
       "pbxproj": {
          "addProject": [
-          { "path": "RealmReact/RealmReact.xcodeproj", "group": "Libraries", "staticLibs": [ { "name": "libKCKeepAwake.a", "target": "KCKeepAwake" } ] }
+          { "path": "RealmReact/RealmReact.xcodeproj", "group": "Libraries", "staticLibs": [ { "name": "libRealmReact.a", "target": "RealmReact" } ] }
         ],
         "addHeaderSearchPath": [
           "\"$(SRCROOT)/{{{projectName}}}/Libraries/RealmReact/**\""
